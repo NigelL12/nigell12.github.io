@@ -1,18 +1,46 @@
 body {
 	background-image: linear-gradient(to right, black, cyan);
 }
-p {
+p, a {
 	font-family: Arial, Sans-serif;
 	font-weight: bold;
 	font-style: italic;
+	font-size: 20px;
 	color: white;
 	text-align: center;
-	text-shadow: 0px 0px blue;
+	text-shadow: 0px 0px 5px blue;
+}
+h1 {
+	font-family: Arial, Sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	text-shadow: 0px 0px 5px red;
 }
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.aa {
+	font-family: Arial, Sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	text-shadow: 0px 0px 5px cyan;
 }
 /* sub to nigell12 lol */
