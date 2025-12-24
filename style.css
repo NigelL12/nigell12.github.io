@@ -1,5 +1,6 @@
 body {
 	background-image: linear-gradient(to right, black, cyan);
+	text-align: center;
 }
 p, a {
 	font-family: Arial, Sans-serif;
